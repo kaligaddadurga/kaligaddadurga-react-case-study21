@@ -1,0 +1,43 @@
+.appContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.pdfWrapper {
+  width: 60%;
+  height: 100%;
+  overflow: auto;
+  border-right: 1px solid #ddd;
+  position: relative;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.pdfContainer {
+  position: relative;
+}
+
+.analysisPanel {
+  width: 40%;
+  padding: 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.refLink {
+  color: #0b5fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.highlightBox {
+  position: absolute;
+  background: yellow;
+  opacity: 0.45;
+  pointer-events: none;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
